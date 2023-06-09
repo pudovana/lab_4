@@ -1,3 +1,4 @@
+import unittest
 class test_Converter(unittest.TestCase):
     def test_values(self):
         self.assertEqual(calc(100000, 5, 12))
