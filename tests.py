@@ -7,3 +7,5 @@ class test_Converter(unittest.TestCase):
         self.assertEqual(calc(100000, 1, "пять"), 'ValueError: не является числом')
         self.assertEqual(calc(100000, 1, [1, 2, 3]), 'TypeError: недопустимое значение')
         self.assertEqual(calc(100000, 1, (1, 2, 3)), 'TypeError: недопустимое значение')
+if __name__ == '__main__':
+    app.run(debug=True)
